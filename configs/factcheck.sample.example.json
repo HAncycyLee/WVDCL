@@ -1,0 +1,16 @@
+{
+  "endpoint": "https://factchecktools.googleapis.com/v1alpha1/claims:search",
+  "max_requests": 6,
+  "page_size": 10,
+  "follow_pagination": false,
+  "automatic_retries": 0,
+  "delay_between_requests_ms": 750,
+  "queries": [
+    {"query_id": "q01", "languageCode": "en", "reviewPublisherSiteFilter": "science.feedback.org"},
+    {"query_id": "q02", "languageCode": "en", "reviewPublisherSiteFilter": "politifact.com"},
+    {"query_id": "q03", "languageCode": "en", "query": "vaccine"},
+    {"query_id": "q04", "languageCode": "en", "query": "election"},
+    {"query_id": "q05", "languageCode": "zh", "query": "疫苗"},
+    {"query_id": "q06", "languageCode": "zh", "query": "地震"}
+  ]
+}

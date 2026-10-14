@@ -1,0 +1,32 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Research content and generated artifacts are private by default
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+checkpoints/
+models/
+*.log
+*.sqlite*
+*.parquet
+*.arrow
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
